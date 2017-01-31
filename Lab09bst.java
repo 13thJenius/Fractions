@@ -92,6 +92,10 @@ class Rational
       this.firstNum = r1.firstNum*r2.firstNum;
       this.firstDen = r1.firstDen*r2.firstDen;
    }
+   public void divide(Rational r1, Rational r2) {
+      this.firstNum = r1.firstNum*r2.firstDen;
+      this.firstDen = r1.firstDen*r2.firstNum;
+   }
 
 }
 
