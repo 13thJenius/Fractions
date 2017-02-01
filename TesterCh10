@@ -18,14 +18,14 @@ class Animal{
 	public int getLives(){
 		return numLives;
 	}
-}
+}//close Animal
 
 class Mammal extends Animal{
 	public Mammal(){
 		System.out.println("mammal constructor called");
 	}
 	
-}
+}//close Mammal
 
 class Cat extends Mammal{
 	private boolean landsOnFeet;
@@ -34,4 +34,4 @@ class Cat extends Mammal{
 		numLives = 9;
 		landsOnFeet  = true;
 	}
-}
+}//close Cat
